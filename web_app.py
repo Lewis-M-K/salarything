@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # Loads the trained model and stores it in the variable model
-model = pickle.load(open('salarything/model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 # Creates seven columns
 col0, col1, col2, col3, col4, col5, col6 = st.columns(7)
